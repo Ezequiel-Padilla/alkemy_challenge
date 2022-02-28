@@ -2,5 +2,5 @@
 
 class Character < ApplicationRecord
   has_one_attached :image
-  has_many :programs
+  belongs_to :programs
 end
